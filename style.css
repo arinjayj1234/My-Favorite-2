@@ -1,0 +1,72 @@
+#welcome{
+ text-align: center;
+ background: rgb(255,87,51);
+ background: linear-gradient(90deg, rgba(255,87,51,1) 0%, rgba(227,177,4,1) 25%, rgba(227,36,43,1) 50%, rgba(139,0,139,1) 75%, rgba(0,212,255,1) 100%);
+ background-repeat: no-repeat;
+ padding-bottom: 20px;
+ height: 500px;
+}
+
+img{
+  border-radius: 50%;
+  width: 100px;
+}
+
+.line{
+  height: 6px;
+  width: 70px;
+  background-color: black;
+  margin: 8px auto;
+}
+
+h1{
+  text-shadow: 2px 2px #f8bbd0;
+}
+
+h2{
+    color: darkgreen;
+    font-family: monospace;
+}
+
+#bio{
+  text-align: center;
+  padding: 20px;
+  font-size: 18px;
+  background-color: aquamarine;
+  color: darkblue;
+  height: 300px;
+}
+
+.menu{
+    list-style: none;
+    font-family: sans-serif;
+    position: fixed;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+}
+
+.links{
+    font-family: fantasy;
+    float: left;
+    color: white;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    font-size: 20px;
+}
+
+.links:hover{
+    background-color: darkgoldenrod;
+    color: cyan;
+}
+
+#hobby{
+    font-family: 'Bungee Shade', cursive;
+    text-shadow: 1px 1px #f8bbd0;
+}
+
+body{
+    background-color: aqua
+}
